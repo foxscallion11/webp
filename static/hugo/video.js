@@ -3,6 +3,9 @@ const dp = new DPlayer({
     video: {
         url: 'https://cdn.jsdelivr.net/gh/foxscallion11/ffeg-mp4/mp4-2/playlist.m3u8',
         type: 'hls',
+        defaultQuality: 0,
+        thumbnails: 'thumbnails.jpg',
+        dp.volume(0.4);
     },
     pluginOptions: {
         hls: {
