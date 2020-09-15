@@ -1,0 +1,15 @@
+    .dplayer-controller {
+        display: none !important;
+    }
+    
+    .dplayer-controller-mask {
+        display: none !important;
+    }
+    
+    .dplayer-bezel {
+        display: none !important;
+    }
+    
+    .dplayer-notice {
+        display: none !important;
+    }
