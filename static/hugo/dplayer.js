@@ -1,4 +1,4 @@
-    $(function() {
+ï»¿    $(function() {
         const dp = new DPlayer({
             container: document.getElementById('dplayer'),
             autoplay: !1,
@@ -16,13 +16,13 @@
             },
         });
         $("#btnV").click(function() {
-            if ($("#btnV").html() == "¡ü ÏëÒª²¥·Å£¿Ã»ÉùÒô£¿µãÕâÀï£¡" || $("#btnV").html() == "¡ü Ã»ÉùÒô£¿µãÕâÀï£¡") {
+            if ($("#btnV").html() == "â†‘ æƒ³è¦æ’­æ”¾ï¼Ÿæ²¡å£°éŸ³ï¼Ÿç‚¹è¿™é‡Œï¼" || $("#btnV").html() == "â†‘ æ²¡å£°éŸ³ï¼Ÿç‚¹è¿™é‡Œï¼") {
                 dp.play();
                 dp.volume(0.4);
-                $("#btnV").html("¡ü Ì«³³ÁË£¬¹Øµô£¡");
+                $("#btnV").html("â†‘ å¤ªåµäº†ï¼Œå…³æ‰ï¼");
             } else {
                 dp.volume(0);
-                $("#btnV").html("¡ü Ã»ÉùÒô£¿µãÕâÀï£¡");
+                $("#btnV").html("â†‘ æ²¡å£°éŸ³ï¼Ÿç‚¹è¿™é‡Œï¼");
             }
         })
 
