@@ -1,4 +1,9 @@
-﻿    $(function() {
+﻿<head>
+  <meta charset="utf-8">   
+</head>
+<body>  
+<script>
+    $(function() {
         const dp = new DPlayer({
             container: document.getElementById('dplayer'),
             autoplay: !1,
@@ -16,15 +21,18 @@
             },
         });
         $("#btnV").click(function() {
-            if ($("#btnV").html() == "↑ 想要播放？没声音？点这里鸭！" || $("#btnV").html() == "↑ 没声音？点这里！") {
+            if ($("#btnV").html() == "↑ 画面不动？没声音？点这里！" || $("#btnV").html() == "↑ 没声音？点这里！") {
                 dp.play();
                 dp.volume(0.4);
-                $("#btnV").html("↑ 太吵了，stop！");
+                $("#btnV").html("↑ 太吵了，关掉！");
             } else {
                 dp.volume(0);
-                $("#btnV").html("↑ 没声音？点这里吧！");
+                $("#btnV").html("↑ 没声音？点这里！");
             }
         })
 
 
     })
+</script>
+</body>  
+	
