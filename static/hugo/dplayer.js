@@ -16,13 +16,13 @@
             },
         });
         $("#btnV").click(function() {
-            if ($("#btnV").html() == "↑ 想要播放？没声音？点这里！" || $("#btnV").html() == "↑ 没声音？点这里！") {
+            if ($("#btnV").html() == "↑ 想要播放？没声音？点这里鸭！" || $("#btnV").html() == "↑ 没声音？点这里！") {
                 dp.play();
                 dp.volume(0.4);
-                $("#btnV").html("↑ 太吵了，关掉！");
+                $("#btnV").html("↑ 太吵了，stop！");
             } else {
                 dp.volume(0);
-                $("#btnV").html("↑ 没声音？点这里！");
+                $("#btnV").html("↑ 没声音？点这里吧！");
             }
         })
 
